@@ -78,11 +78,11 @@
 
 //========== Q.no 7
 // Loop through each row
-// for (let i = 1; i <= 5; i++) {
-//     let row = "";
-//     // Loop through each column in the current row
-//     for (let j = 1; j <= i; j++) {
-//         row += "* ";
-//     }
-//     console.log(row);
-// }
+for (let i = 1; i <= 5; i++) {
+    let row = "";
+    // Loop through each column in the current row
+    for (let j = 1; j <= i; j++) {
+        row += "* ";
+    }
+    console.log(row);
+}
